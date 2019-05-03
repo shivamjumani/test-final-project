@@ -1,0 +1,370 @@
+{
+   "type": "FeatureCollection",
+   "name": "theater-data",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.98241,40.7784 ]
+    },
+    "properties": {
+    "week":"Week 1",
+    "theatre_name":"Kissin Improv",
+    "theatre_categories_0_title":"Comedy Clubs",
+    "theatre_rating":5
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -74.004329,40.733474 ]
+    },
+    "properties": {
+    "week":"Week 2",
+    "theatre_name":"Ted Greenberg's The Complete Performer",
+    "theatre_categories_0_title":"Comedy Clubs",
+    "theatre_rating":4
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.9855773,40.7275584 ]
+    },
+    "properties": {
+    "week":"Week 3",
+    "theatre_name":"Full House The Musical",
+    "theatre_categories_0_title":"Comedy Clubs",
+    "theatre_rating":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.9856092,40.7643905 ]
+    },
+    "properties": {
+    "week":"Week 4",
+    "theatre_name":"Broadway Comedy Club",
+    "theatre_categories_0_title":"Comedy Clubs",
+    "theatre_rating":2.5
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -74.00058,40.73021 ]
+    },
+    "properties": {
+    "week":"Week 1",
+    "theatre_name":"Comedy Cellar",
+    "theatre_categories_0_title":"Comedy Clubs",
+    "theatre_rating":4
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.984013,40.761059 ]
+    },
+    "properties": {
+    "week":"Week 2",
+    "theatre_name":"Carolines On Broadway",
+    "theatre_categories_0_title":"Comedy Clubs",
+    "theatre_rating":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.7976,40.98864 ]
+    },
+    "properties": {
+    "week":"Week 3",
+    "theatre_name":"The Ivy League of Comedy",
+    "theatre_categories_0_title":"Comedy Clubs",
+    "theatre_rating":4
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.9896868,40.718728 ]
+    },
+    "properties": {
+    "week":"Week 4",
+    "theatre_name":"Culture Project",
+    "theatre_categories_0_title":"Cultural Center",
+    "theatre_rating":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.9270935,40.6794014 ]
+    },
+    "properties": {
+    "week":"Week 1",
+    "theatre_name":"Asase Yaa Center For the Arts",
+    "theatre_categories_0_title":"Cultural Center",
+    "theatre_rating":5
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.98172,40.78061 ]
+    },
+    "properties": {
+    "week":"Week 2",
+    "theatre_name":"Flamenco with Victorio",
+    "theatre_categories_0_title":"Dance Schools",
+    "theatre_rating":5
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.9417,40.67615 ]
+    },
+    "properties": {
+    "week":"Week 3",
+    "theatre_name":"Lotus Creations Academy",
+    "theatre_categories_0_title":"Dance Schools",
+    "theatre_rating":5
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.91989,40.75827 ]
+    },
+    "properties": {
+    "week":"Week 4",
+    "theatre_name":"Wild Heart Performing Arts Studio",
+    "theatre_categories_0_title":"Dance Studios",
+    "theatre_rating":5
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.97891,40.686941 ]
+    },
+    "properties": {
+    "week":"Week 1",
+    "theatre_name":"Flamenco y Sol",
+    "theatre_categories_0_title":"Dance Studios",
+    "theatre_rating":5
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.992583,40.753922 ]
+    },
+    "properties": {
+    "week":"Week 2",
+    "theatre_name":"Ajna Dance",
+    "theatre_categories_0_title":"Dance Studios",
+    "theatre_rating":5
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.984358,40.740441 ]
+    },
+    "properties": {
+    "week":"Week 3",
+    "theatre_name":"Broadway Bodies",
+    "theatre_categories_0_title":"Dance Studios",
+    "theatre_rating":5
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.957318,40.6459959 ]
+    },
+    "properties": {
+    "week":"Week 4",
+    "theatre_name":"Kings Theatre",
+    "theatre_categories_0_title":"Music Venues",
+    "theatre_rating":4
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.9811103,40.7805486 ]
+    },
+    "properties": {
+    "week":"Week 1",
+    "theatre_name":"Beacon Theatre",
+    "theatre_categories_0_title":"Music Venues",
+    "theatre_rating":4
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.98416,40.75831 ]
+    },
+    "properties": {
+    "week":"Week 2",
+    "theatre_name":"The Playroom Theater",
+    "theatre_categories_0_title":"Music Venues",
+    "theatre_rating":4.5
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.97991559,40.76511255 ]
+    },
+    "properties": {
+    "week":"Week 3",
+    "theatre_name":"Carnegie Hall",
+    "theatre_categories_0_title":"Music Venues",
+    "theatre_rating":4.5
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.98265612,40.77284178 ]
+    },
+    "properties": {
+    "week":"Week 4",
+    "theatre_name":"David Geffen Hall",
+    "theatre_categories_0_title":"Music Venues",
+    "theatre_rating":4
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.9826101,40.7750072 ]
+    },
+    "properties": {
+    "week":"Week 1",
+    "theatre_name":"Merkin Concert Hall",
+    "theatre_categories_0_title":"Music Venues",
+    "theatre_rating":4
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.99338,40.72036 ]
+    },
+    "properties": {
+    "week":"Week 2",
+    "theatre_name":"Bowery Ballroom",
+    "theatre_categories_0_title":"Music Venues",
+    "theatre_rating":4.5
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.6360459,40.651882 ]
+    },
+    "properties": {
+    "week":"Week 3",
+    "theatre_name":"Leggz Ltd",
+    "theatre_categories_0_title":"Performing Arts",
+    "theatre_rating":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.59755295,40.81705862 ]
+    },
+    "properties": {
+    "week":"Week 4",
+    "theatre_name":"Tilles Center Concert Hall",
+    "theatre_categories_0_title":"Performing Arts",
+    "theatre_rating":3.5
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.5930141,40.7033575 ]
+    },
+    "properties": {
+    "week":"Week 1",
+    "theatre_name":"Prodigy School of the Arts",
+    "theatre_categories_0_title":"Performing Arts",
+    "theatre_rating":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.99217,40.75365 ]
+    },
+    "properties": {
+    "week":"Week 2",
+    "theatre_name":"Telecharge",
+    "theatre_categories_0_title":"Performing Arts",
+    "theatre_rating":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.9837,40.76021 ]
+    },
+    "properties": {
+    "week":"Week 3",
+    "theatre_name":"Broadway.com",
+    "theatre_categories_0_title":"Performing Arts",
+    "theatre_rating":1.5
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.6561775,40.7070675 ]
+    },
+    "properties": {
+    "week":"Week 1",
+    "theatre_name":"Fame Theatrical Productions - Honey's School of Dance",
+    "theatre_categories_0_title":"Performing Arts",
+    "theatre_rating":1
+    }
+  }
+]
+}

@@ -1,0 +1,12 @@
+body {
+  background-color: #ddd;
+}
+
+#map {
+  height: 500px;
+  width: 800px;
+  background: lightgray;
+  padding: 30%
+  margin: 15px;
+  align-content: center;
+}
