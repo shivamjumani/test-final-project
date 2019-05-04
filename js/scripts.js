@@ -11,35 +11,38 @@ var map = new mapboxgl.Map({
 });
 
 map.on('style.load', function() {
-  map.addSource('test-data', {
-    type: 'geojson',
-    data: './js/theatreData.geojson'
-  });
+  $.getJSON('js/theatreData.geojson', function(data) {
 
-  map.addLayer({
-    'id': 'theater-locations',
-    'type': 'circle',
-    'source': 'test-data',
-    'circle-radius': {
-      property: 'theatre_rating',
-      stops: [
-        [1,1],[2,2],[3,3],[4,4],[5,5]
-      ]
-    },
-    'circle-color': {
-      'fill-opacity': 0.8,
-      'fill-color': {
-        type: 'categorical',
-        property: 'theatre_categories_0_title',
+    map.addSource('test-data', {
+      type: 'geojson',
+      data: data,
+    });
+
+    map.addLayer({
+      'id': 'theater-locations',
+      'type': 'circle',
+      'source': 'test-data',
+      'circle-radius': {
+        property: 'theatre_rating',
         stops: [
-          ['Comedy Clubs', '#DDA0DD'],
-          ['Dance Studios', '#EE82EE'],
-          ['Music Venues', '#ea6661'],
-          ['Performing Arts', '#778899']
+          [1,1],[2,2],[3,3],[4,4],[5,5]
         ]
+      },
+      'circle-color': {
+        'fill-opacity': 0.8,
+        'fill-color': {
+          type: 'categorical',
+          property: 'theatre_categories_0_title',
+          stops: [
+            ['Comedy Clubs', '#DDA0DD'],
+            ['Dance Studios', '#EE82EE'],
+            ['Music Venues', '#ea6661'],
+            ['Performing Arts', '#778899']
+          ]
+        }
       }
-    }
 
+    })
   })
 }
 )
